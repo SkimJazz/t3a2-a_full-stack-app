@@ -146,12 +146,12 @@ implemented based on project requirements.
 
 ### Mobile Landing, Sign Up, and Login Pages
 
-![Mobile Landing, Sign Up and Login pages](./images/wire-mobi_landing-signup-login.svg)
+![Mobile Landing, Sign Up and Login pages](./images/wire-mobi_landing-signup-login.png)
 
 
 ### Mobile Sidebar, Dashboard, and All Pages
 
-![Mobile Sidebar, Dashborad, and All pages](./images/wire-mobi_sidebar-dashboard_all-pages.svg)
+![Mobile Sidebar, Dashboard, and All pages](./images/wire-mobi_sidebar-dashboard_all-pages.png)
 ---
 
 ## Planning
