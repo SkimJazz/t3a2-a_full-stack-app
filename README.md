@@ -91,7 +91,7 @@ list will be available in the final documentation for this project.
 
 ## Application Architecture Diagram
 
-![Application Architecture Diagram](./images/aad.png)
+![Application Architecture Diagram](./images/aad-1.png)
 
 ---
 
