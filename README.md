@@ -91,11 +91,7 @@ list will be available in the final documentation for this project.
 
 ## Application Architecture Diagram
 
-
-```mermaid
-
-
-```
+![Application Architecture Diagram](./images/aad.png)
 
 ---
 
