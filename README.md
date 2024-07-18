@@ -98,7 +98,7 @@ list will be available in the final documentation for this project.
 ## Dataflow Diagram
 
 
-![Application Architecture Diagram](./images/dfd-v0.png)
+![Data Flow Diagram](./images/dfd-v0.png)
 
 ---
 
