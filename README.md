@@ -98,10 +98,7 @@ list will be available in the final documentation for this project.
 ## Dataflow Diagram
 
 
-```mermaid
-
-
-```
+![Application Architecture Diagram](./images/dfd-v0.png)
 
 ---
 
