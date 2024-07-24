@@ -3,63 +3,128 @@
 
 ## Purpose
 
-The Tradesman Job Management application is designed to streamline and enhance the work
-processes of tradesmen. It aims to address the unique challenges faced by tradesmen in 
-managing their jobs, schedules, clients, and resources.
+The Tradesman Job Management Application is a comprehensive solution designed to empower 
+tradespersons across various industries. In the fast-paced and demanding world of trade services,
+organization and efficiency are key to success. Whether you're an electrician, plumber, carpenter,
+or in any other trade, managing jobs effectively is vital.
+
+Our application aims to simplify job tracking from initial contact through to completion, allowing 
+tradespersons to stay organized, save time, and focus on what they do best - mastering their trade. 
+With features such as user registration and authentication, a dashboard for a quick overview, user 
+profile management, search and filter options, and job, schedule, and client management, our application 
+provides a one-stop solution for tradespersons to manage their work.
+
+The purpose of this application is to streamline the process of job management for tradespersons. 
+It provides a platform where tradespersons can keep track of their jobs, schedules, and clients 
+efficiently. The application also allows tradespersons to update their profiles, search for specific
+jobs or clients quickly, and manage their jobs and schedules effectively.
+
+By digitizing these aspects of job management, we aim to enhance productivity, improve time management,
+and ultimately increase customer satisfaction and business growth for tradespersons. Our goal is to 
+make the job management process as seamless and efficient as possible, allowing tradespersons to focus
+more on their work and less on administrative tasks, because lets face it, Trademans don't like paper work.
+This application is a step towards a more organized,
+efficient, and successful future for all tradespersons.
 
 ---
 
 ## Target audience
 
-The application targets blue-collar workers such as tradesmen working in a non-office
-environment such as construction sites and production lines who need a solution to
-manage their work processes.
+Our Tradesman Job Management Application is specifically designed for tradespersons who are seeking a
+streamlined and efficient way to manage their jobs. Our target audience includes electricians, plumbers,
+carpenters, and other tradespersons across various industries.
 
----
+These professionals often juggle multiple jobs at once, each with its unique requirements, schedules, 
+and clients. They need a reliable and easy-to-use platform that can help them stay organized, track their
+jobs, manage their schedules, and maintain their client database.
 
-##  User Stories
+Our application is also suitable for tradespersons who are looking to save time on administrative tasks 
+and focus more on their trade. With features like user registration and authentication, a comprehensive 
+dashboard, user profile management, search and filter options, and job, schedule, and client management, 
+our application provides a one-stop solution for their job management needs.
 
-**Job Management**
-- As a tradesman, I have a new job lined up. I open the app and go to the job creation page. I fill in
-  the job details such as location, type of work, materials needed, estimated time, cost, etc., and submit
-  the job entry. Now, I have a digital record of my job. Over time, I update these job entries as things
-  change, ensuring my job list is always current. If a job gets cancelled or completed, I can easily
-  delete it from my list. I can also view my current, pending, and completed jobs, as well as filter them
-  by date, location, or type of work in a search bar. This will come in handy when I need to find a specific
-  job to compare details such as cost or materials needed as reference.
-
-
-**Schedule Management**
-- Managing my schedule is important for me as a tradesman. With the app, I can go to the calendar feature,
-  select the date and time for each job, and save the job schedule. I also set reminders for my jobs, so I
-  don't miss any. This way, I can organize my work and manage my time effectively.
-
-**Client Management**
-- Keeping track of my clients is essential. With the app, I can add a new client with their contact
-  information and save it. I can update my clients' information as needed, ensuring it's always current.
-  If a client is no longer relevant, I can easily delete them from my client list.
-
-
-**User Profile**
-
-- As a tradesman, I want to have a comprehensive and accessible profile. I open the app and navigate
-  to the user profile page. Here, I can view my contact information, profile picture, and other
-  personal details. If I need to update any of this information, such as changing my phone number or
-  updating my profile picture, I can easily do so within the app. I also have the option to change
-  my password if needed, ensuring my account remains secure. This feature allows me to maintain an
-  up-to-date and accurate profile, which is essential for managing my professional image
+Furthermore, tradespersons who value the security of their data and the convenience of accessing their 
+job information from anywhere will find our application particularly useful. Whether they are self-employed
+or part of a larger team, our application can adapt to their needs and help them manage their work more effectively.
 
 ---
 
 ## Functionality / features
 
-- **User Registration and Authentication**: A secure login system for tradesmen to access their profiles. This includes registration, login, and password functionality. Admin will have access to the number of registered users. There's also a potential feature for user registration confirmation, which may require a background worker depending on the processing load.
-- **Job Management**: Tradesmen can create, read, update, and delete (CRUD) job entries with details like job location, type of work, materials needed, estimated time, cost, etc.
-- **Schedule Management**: A CRUD calendar feature, leveraging react-big-calendar, allows tradesmen to schedule their jobs, set reminders, and mark their availability.
-- **Client Management**: A CRUD database of clients with their contact information, _~~**job history, and completed jobs.**~~_
+
+- **User Registration and Authentication**: A secure login system for tradesmen to access their profiles. This includes
+  registration, login, and password functionality. Admin will have access to the number of registered users. There's also
+  a potential feature for user registration confirmation, which may require a background worker depending on the processing
+  load.
+- **Dashboard**: A dashboard to view a summary of jobs, schedules, clients, and user profile details.
 - **User Profile**: A feature to view and update user details, including contact information, profile picture, and password.
 - **Search and Filter**: A search bar and filter options to find specific jobs, clients, or inventory items quickly.
-- **Dashboard**: A dashboard to view a summary of jobs, schedules, clients, and user profile details.
+- **Job Management**: Tradesmen can create, read, update, and delete (CRUD) job entries with details like job location,
+  type of work, materials needed, estimated time, cost, etc.
+- **Schedule Management**: A CRUD calendar feature, leveraging react-big-calendar, allows tradesmen to schedule their
+  jobs, set reminders, and mark their availability.
+- **Client Management**: A CRUD database of clients with their contact information
+
+
+
+##  User Stories
+
+1. **User Registration and Authentication**
+  - As a tradesman, I want to register an account so that I can access the job management features.
+    - Acceptance Criteria: The system allows me to register an account using my email and a password. After registration,
+      I receive a confirmation email.
+  - As a tradesman, I want to log in to my account so that I can manage my jobs.
+    - Acceptance Criteria: The system allows me to log in using my registered email and password.
+  - As a tradesman, I want to reset my password in case I forget it so that I can regain access to my account.
+    - Acceptance Criteria: The system provides a "Forgot Password" option on the login page. When selected, it sends a 
+      password reset link to my registered email.
+
+2. **Dashboard**
+  - As a tradesman, I want to view a summary of my profile and have the ability to navigate to my jobs, schedules, and 
+    clients on my dashboard so that I can get an overview of my work at a glance.
+    - Acceptance Criteria: The dashboard displays a summary of my profile in addition to allowing me to choose a different
+      page link for adding a new job, schedules, and viewing current jobs and client lists.
+
+3. **User Profile**
+  - As a tradesman, I want to view and update my profile details so that my contact information is always up-to-date.
+    - Acceptance Criteria: The system allows me to view my profile details and update them as needed.
+
+4. **Search and Filter**
+  - As a tradesman, I want to search for specific jobs or clients so that I can find the information I need quickly.
+    - Acceptance Criteria: The system provides a search bar where I can enter keywords to search for jobs or clients.
+  - As a tradesman, I want to filter my jobs by different criteria so that I can easily sort and manage my work.
+    - Acceptance Criteria: The system provides filter options for sorting jobs by date, location, or type of work.
+
+5. **Job Management**
+  - As a tradesman, I want to create job entries with all the necessary details so that I have a complete record of my work.
+    - Acceptance Criteria: The system provides a form for creating a new job entry with fields for job location, type of work, materials needed, estimated time, cost, etc.
+  - As a tradesman, I want to update my job entries as things change so that my job list is always current.
+    - Acceptance Criteria: The system allows me to select a job entry and update its details.
+  - As a tradesman, I want to delete job entries when a job is cancelled or completed so that my job list is accurate.
+    - Acceptance Criteria: The system allows me to select a job entry and delete it.
+
+6. **Schedule Management**
+  - As a tradesman, I want to schedule my jobs and set reminders so that I never miss a job.
+    - Acceptance Criteria: The system provides a calendar feature where I can schedule jobs and set reminders.
+  - As a tradesman, I want to mark my availability so that I can manage my time effectively.
+    - Acceptance Criteria: The system allows me to mark my availability on the calendar.
+
+7. **Client Management**
+  - As a tradesman, I want to add new clients and their contact information so that I can keep track of my clients.
+    - Acceptance Criteria: The system provides a form for adding a new client with fields for their contact information.
+  - As a tradesman, I want to update my clients' information as needed so that it's always current.
+    - Acceptance Criteria: The system allows me to select a client and update their information.
+  - As a tradesman, I want to delete clients from my list when they are no longer relevant so that my client list is accurate.
+    - Acceptance Criteria: The system allows me to select a client and delete them from my list.
+
+---
+
+
+
+
+
+
+
 
 ---
 
@@ -98,7 +163,7 @@ list will be available in the final documentation for this project.
 ## Dataflow Diagram
 
 
-![Data Flow Diagram](./images/dfd-v0.png)
+![Data Flow Diagram](./images/dfd.png)
 
 ---
 
@@ -107,33 +172,14 @@ list will be available in the final documentation for this project.
 
 The following wireframes are designed to provide a visual representation of the application's user interface.
 These wireframes are intended to guide the development process and may be subject to change based on project 
-requirements, such as the arrangement of input text fields, buttons, and other UI elements. 
-
-The colors light blue, light grey, and white are base colors representing the color scheme of the application.
-The final application's colors will be darker and more refined and may include additional colors to enhance 
-the user experience.
+requirements, such as the arrangement of input text fields, buttons, and other UI elements. The final application's
+colors will be more refined and may include additional colors to enhance the user experience.
 
 
-### Landing, Sign Up, and Login Pages
+### Wireframes for Desktop and Laptop Screens
 
-![Landing, Sign Up and Login pages](./images/wire_landing-signup-login.png)
+![Landing, Sign Up and Login pages](./images/wire_pc-laptop.png)
 
-
-### New Job, All Jobs, and Client Details Pages
-
-![New Job, All Jobs and Client Details pages](./images/wire_newjob-alljobs-clients.png)
-
-
-### Profile and Scheduling Pages
-
-
-In addition to the primary sidebar designs shown in the application's user interface above,
-The following wireframes include an alternative sidebar design. This design extends to the 
-top of the page, offering a distinct aesthetic and potentially different user interaction model.
-This alternate design is under consideration as a supplementary option, which may or may not be 
-implemented based on project requirements.
-
-![Alternative Profile and Scheduling pages](./images/wire_profile-scheduling.png)
 
 <br>
 
