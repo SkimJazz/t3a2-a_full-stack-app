@@ -65,7 +65,7 @@ or part of a larger team, our application can adapt to their needs and help them
   jobs, set reminders, and mark their availability.
 - **Client Management**: A CRUD database of clients with their contact information
 
-
+---
 
 ##  User Stories
 
@@ -119,17 +119,6 @@ or part of a larger team, our application can adapt to their needs and help them
 
 ---
 
-
-
-
-
-
-
-
----
-
-
-
 ## Tech stack
 
 This application is built using the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js.
@@ -176,24 +165,21 @@ requirements, such as the arrangement of input text fields, buttons, and other U
 colors will be more refined and may include additional colors to enhance the user experience.
 
 
-### Wireframes for Desktop and Laptop Screens
+### Wireframe Desktop and Laptop application layout
 
 ![Landing, Sign Up and Login pages](./images/wire_pc-laptop.png)
 
 
 <br>
 
-### Mobile Landing, Sign Up, and Login Pages
 
-![Mobile Landing, Sign Up and Login pages](./images/wire-mobi_landing-signup-login.png)
+### Wireframe Mobile application layout
 
+![Mobile application layout](./images/wire_mobile.png)
 
-### Mobile Sidebar, Dashboard, and All Pages
-
-![Mobile Sidebar, Dashboard, and All pages](./images/wire-mobi_sidebar-dashboard_all-pages.png)
 ---
 
-## Planning
+## Planning and Project Management - Part A
 
 TrelloBoard
 
