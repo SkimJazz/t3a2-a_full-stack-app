@@ -22,7 +22,7 @@ jobs or clients quickly, and manage their jobs and schedules effectively.
 By digitizing these aspects of job management, we aim to enhance productivity, improve time management,
 and ultimately increase customer satisfaction and business growth for tradespersons. Our goal is to 
 make the job management process as seamless and efficient as possible, allowing tradespersons to focus
-more on their work and less on administrative tasks, because lets face it, Trademans don't like paper work.
+more on their work and less on administrative tasks, because lets face it, _**trademan don't like paper work**_.
 This application is a step towards a more organized,
 efficient, and successful future for all tradespersons.
 
@@ -71,13 +71,13 @@ or part of a larger team, our application can adapt to their needs and help them
 
 1. **User Registration and Authentication**
   - As a tradesman, I want to register an account so that I can access the job management features.
-    - Acceptance Criteria: The system allows me to register an account using my email and a password. After registration,
-      I receive a confirmation email.
+    - Acceptance Criteria: The system allows me to register an account using my email and a password. The app communicates
+      the successful registration to me in a browser alert message.
   - As a tradesman, I want to log in to my account so that I can manage my jobs.
     - Acceptance Criteria: The system allows me to log in using my registered email and password.
-  - As a tradesman, I want to reset my password in case I forget it so that I can regain access to my account.
-    - Acceptance Criteria: The system provides a "Forgot Password" option on the login page. When selected, it sends a 
-      password reset link to my registered email.
+  - ~~As a tradesman, I want to reset my password in case I forget it so that I can regain access to my account.~~
+    - ~~Acceptance Criteria: The system provides a "Forgot Password" option on the login page. When selected, it sends a~~
+      ~~password reset link to my registered email.~~
 
 2. **Dashboard**
   - As a tradesman, I want to view a summary of my profile and have the ability to navigate to my jobs, schedules, and 
@@ -179,11 +179,10 @@ colors will be more refined and may include additional colors to enhance the use
 
 ---
 
-## Planning and Project Management - Part A
+## Planning and Project Management - PART A
 
-TrelloBoard
+![Trello rubbish week-1](./images/week1.png)
 
-https://trello.com/invite/b/eLI2bsdu/ATTI9b9034d37cc3056fd143c3185b5e25f427FDF11E/t3a2-full-stack-app
 
 
 
