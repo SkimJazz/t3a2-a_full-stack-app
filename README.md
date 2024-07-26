@@ -1,6 +1,8 @@
 # T3A2 Full Stack App (Part-A)
 
 
+[Part A Repo Link](https://github.com/SkimJazz/t3a2-a_full-stack-app/tree/main)
+
 ## Purpose
 
 The Tradesman Job Management Application is a comprehensive solution designed to empower 
