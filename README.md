@@ -22,11 +22,12 @@ jobs or clients quickly, and manage their jobs and schedules effectively.
 By digitizing these aspects of job management, we aim to enhance productivity, improve time management,
 and ultimately increase customer satisfaction and business growth for tradespersons. Our goal is to 
 make the job management process as seamless and efficient as possible, allowing tradespersons to focus
-more on their work and less on administrative tasks, because lets face it, _**trademan don't like paper work**_.
+more on their work and less on administrative tasks, because let's face it, _**trademan don't like paper work**_.
 This application is a step towards a more organized,
 efficient, and successful future for all tradespersons.
 
 ---
+
 
 ## Target audience
 
@@ -49,6 +50,7 @@ or part of a larger team, our application can adapt to their needs and help them
 
 ---
 
+
 ## Functionality / features
 
 
@@ -67,6 +69,7 @@ or part of a larger team, our application can adapt to their needs and help them
 
 ---
 
+
 ##  User Stories
 
 1. **User Registration and Authentication**
@@ -75,9 +78,7 @@ or part of a larger team, our application can adapt to their needs and help them
       the successful registration to me in a browser alert message.
   - As a tradesman, I want to log in to my account so that I can manage my jobs.
     - Acceptance Criteria: The system allows me to log in using my registered email and password.
-  - ~~As a tradesman, I want to reset my password in case I forget it so that I can regain access to my account.~~
-    - ~~Acceptance Criteria: The system provides a "Forgot Password" option on the login page. When selected, it sends a~~
-      ~~password reset link to my registered email.~~
+
 
 2. **Dashboard**
   - As a tradesman, I want to view a summary of my profile and have the ability to navigate to my jobs, schedules, and 
@@ -119,6 +120,7 @@ or part of a larger team, our application can adapt to their needs and help them
 
 ---
 
+
 ## Tech stack
 
 This application is built using the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js.
@@ -140,7 +142,6 @@ list will be available in the final documentation for this project.
 - **dotenv**: For managing environment variables.
 
 
-
 ---
 
 ## Application Architecture Diagram
@@ -152,7 +153,7 @@ list will be available in the final documentation for this project.
 ## Dataflow Diagram
 
 
-![Data Flow Diagram](./images/dfd.png)
+![Data Flow Diagram](./images/dfd-v2.png)
 
 ---
 
@@ -167,7 +168,15 @@ colors will be more refined and may include additional colors to enhance the use
 
 ### Wireframe Desktop and Laptop application layout
 
-![Landing, Sign Up and Login pages](./images/wire_pc-laptop.png)
+![Landing, Sign Up and Login pages](./images/wire_desktop-laptop.png)
+
+
+<br>
+
+
+### Wireframe Tablet application layout
+
+![Tablet application layout](./images/wire_tablet.png)
 
 
 <br>
@@ -175,16 +184,35 @@ colors will be more refined and may include additional colors to enhance the use
 
 ### Wireframe Mobile application layout
 
-![Mobile application layout](./images/wire_mobile.png)
+![Mobile application layout](./images/wire_mobile-v1.png)
+
 
 ---
 
+
 ## Planning and Project Management - PART A
+
+### Week 1 planning and progress
+
+The first week of the project was dedicated to planning and setting up the project.
+The following tasks were worked on during the first week: Requirements 1 and 4, including project planning.
 
 ![Trello rubbish week-1](./images/week1.png)
 
 
+### Week 2 planning and progress
 
+Wireframes and user stories were created during the second week.
+
+![Trello rubbish week-2](./images/week2.png)
+
+
+### Week 3 planning and progress
+
+Finalizing the DFD in addition to the Functionality and Features section of the README file.
+
+
+![Trello rubbish week-3](./images/week3.png)
 
 
 
